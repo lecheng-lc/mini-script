@@ -3,3 +3,9 @@
 - 接手到这个项目，对于接口大量使用了await和async的语法，导致代码一旦报错就直接崩溃掉，所以通过实现一个babel来帮我们统一去处理这件事情，增强代码的容错率
 - 为了防止渗透爬取源代码，使用了代码加固工具，但要使用代码加固工具的话，就不能很好的让测试看到当前的构建版本和构建时间点，所以在微信所提供的钩子函数中，对文件进行读写操作
 - 增加构建版本号更改,显示目前的版本号和版本构建时间点
+
+
+# 参考连接
+[babel-core用法](https://babeljs.io/docs/babel-core)
+[ast babel/types用法](https://babeljs.io/docs/babel-types)  
+[一文聊完前端项目中的Babel配置](https://juejin.cn/post/7151653067593613320#heading-0)

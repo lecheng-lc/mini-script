@@ -5,17 +5,18 @@
   "main": "index.js",
   "repository": "git@github.com:lecheng-lc/mini-script.git",
   "author": "lecheng",
-  "type": "module",
   "license": "MIT",
-  "script": {
-    "build": "yarn version && yarn img yarn helperAwait",
+  "scripts": {
+    "build": "yarn version && yarn img yarn await",
     "version": "node ./src/version.js",
     "img": "node ./src/imgUrlHelp.js",
-    "helperAwait": "node ./src/awaitHelp.js"
+    "await": "node ./src/awaitHelp.js"
   },
   "dependencies": {
+    "@babel/core": "^7.22.8",
     "@types/node": "^20.4.1",
     "aliyun-oss-upload-multiple": "^1.0.0",
-    "babel-template": "^6.26.0"
+    "babel-template": "^6.26.0",
+    "deepmerge": "^4.3.1"
   }
 }
