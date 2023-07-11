@@ -6,6 +6,6 @@
 
 
 # 参考连接
-[babel-core用法](https://babeljs.io/docs/babel-core)
+[babel-core用法](https://babeljs.io/docs/babel-core)  
 [ast babel/types用法](https://babeljs.io/docs/babel-types)  
 [一文聊完前端项目中的Babel配置](https://juejin.cn/post/7151653067593613320#heading-0)

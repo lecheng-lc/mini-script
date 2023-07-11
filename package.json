@@ -17,6 +17,7 @@
     "@types/node": "^20.4.1",
     "aliyun-oss-upload-multiple": "^1.0.0",
     "babel-template": "^6.26.0",
-    "deepmerge": "^4.3.1"
+    "deepmerge": "^4.3.1",
+    "mime": "^3.0.0"
   }
 }
